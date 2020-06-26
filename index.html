@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Cheat Sheet</title>
+</head>
+<body>
+	<!-- The header is an html container element for the heading section of the webpage. -->
+	<header>
+		<h1 style="text-align: center; text-decoration: underline;">HTML Cheatsheet</h1>
+	</header>
+	<!-- Headings in HTML -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+
+	<!-- Paragraph Tag -->
+	<!-- em/i = Emphasize/ Italicize text -->
+	<!-- strong/ b = Bold Text -->
+	<p>(This is wrapped in a paragraph tag)</p>
+	<p><em>Lorem ipsum dolor</em> sit amet, <i>consectetur</i> adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud <strong>exercitation</strong> ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla <b>pariatur</b> . Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!-- Lists -->
+	<!-- ol = ordered list -->
+	<!-- ul = unordered list -->
+	<!-- li = list item -->
+	<ol>
+		<li>One</li>
+		<li>Two</li>
+	</ol>
+
+	<ul>
+		<li>One</li>
+		<li>Two</li>
+	</ul>
+
+	<!-- Line Break (Adds vertical spacing between elements without css) -->
+	<br>
+
+	<!-- Input allows the developer to create inputs for the user to interact with. --> 
+	<h2>Inputs</h2>
+	<label>Text:</label> <input type="text" name=""><br>
+	<label>Checkbox:</label> <input type="checkbox" name=""><br>
+	<label>Color-Picker:</label> <input type="color" name=""><br>
+	<label>Date-Picker:</label> <input type="date" name=""><br>
+	<label>Date-Time:</label> <input type="datetime-local" name=""><br>
+	<label>Email:</label> <input type="email" name=""><br>
+	<label>File:</label> <input type="file" name=""><br>
+	<label>Image:</label> <input type="image" name=""><br>
+	<label>Month:</label> <input type="month" name=""><br>
+	<label>Number:</label> <input type="number" name=""><br>
+	<label>Password:</label> <input type="password" name=""><br>
+	<label>Radio:</label> <input type="radio" name=""><br>
+	<label>Range:</label> <input type="range" name=""><br>
+	<label>Reset:</label> <input type="reset" name=""><br>
+	<label>Search:</label> <input type="search" name=""><br>
+	<label>Submit</label> <input type="submit" name=""><br>
+	<label>Tel:</label> <input type="tel" name=""><br>
+	<label>Time:</label> <input type="time" name=""><br>
+	<label>Url:</label> <input type="url" name=""><br>
+	<label>Week:</label> <input type="week" name=""><br>
+
+
+	<!-- Images -->
+	<div class="images" style="padding-top: 50px;">
+
+	<img alt="Blocks with in a triangle shifiting." style="width: 10rem; border-radius: 100px; border: 2px solid #7FFF00;" src="images/code-block-image.gif">
+	<img style="width: 13rem; border: solid 2px #7FFF00; border-radius: 100px;" src="images/computer-coding.gif">
+
+	</div>
+	
+	<!-- Anchor Tag = Provides a link to external or internal webpages.  -->
+	<br>
+	<div style="margin:50px auto; text-align: center; border: 2px solid #7FFF00; border-radius: 100px; width: 150px;">
+		<a style=" text-decoration: none; color: #00FFFF; font-size: 1.5rem;" href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+	</div>
+	
+
+	<!-- Horizontal Rule (Creates line in the document) -->
+	<hr>
+
+
+
+	<!-- New Content -->
+
+	<!-- "The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry." - MDN Webdocs -->
+	<article>
+		<h2>This is an article</h2>
+			<p>This is article content.</p>
+			<p>The article tag creates a containter for a blog post or any asscotiated forms of media on your webpage.</p>
+	</article>
+
+	<br>
+
+	<!-- "The HTML <section> element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document. Typically, but not always, sections have a heading." - MDN Webdocs -->
+	<section>
+		<h2>This is a section</h2>
+		<p>Any HTML content goes here.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<hr>
+
+	<!-- A div is another form of an HTML container. It is more general than a section and article.  -->
+	<!-- Code element allows developer to display code on the webpage. -->
+	<div class="container">
+		<h2>This is a <code>div</code></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!-- Aside: The HTML <aside> element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes. -MDN Webdocs -->
+		<aside>
+		 	<p>This paragraph is wrapped in an aside tag.</p>
+		</aside>
+	</div>
+
+	<span>
+		<h2>This is a span</h2>
+		<p>This is a span, and is another form of an html container element. The diffrence bettween this element and other containers is that the span is meant to be used inline and not at the block level.</p>
+	</span>
+
+	<!-- Figure and audio tags: -->
+	<!-- Link to their relative articles on MDN
+	figure: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+	audio: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio -->
+	<h2>Audio:</h2>
+	<figure>
+		<figcaption>Listen to the dog barking:</figcaption>
+		<audio
+		controls
+		src="audio/Dog_Barking.mp3">
+		</audio>
+	</figure>
+
+	<br>
+
+<!-- 	Canvas allows to create an area for the user to draw on within the webpage. Only can work through javascript code.  -->
+	<h2>This is a canvas.</h2>
+	<p>This allows the develper to code a section where the user can draw in the webpage.</p>
+	<canvas style="background-color: white;" width="300" height="300">
+		Alternative text describing what the canvas displays goes here. 
+	</canvas>
+
+	<br>
+
+	<!-- This is an input with a datalist. This allows the dev to create a list of options the user can select within the input.  -->
+	<div class="color-picker-input" style="padding:50px;">
+		<h2>Color Picker Input:</h2>
+	<label for="color-choice">Choose a color:</label>
+	<input list="color-picker" name="color-choice" id="color-choice" />
+
+	<datalist id="color-picker">
+		<option>Red</option>
+		<option>Green</option>
+		<option>Blue</option>
+		<option>Yellow</option>
+	</datalist>
+	</div>
+
+	<!-- The details tag allows the dev to add additional information under a tab. Meant for disclosing information/details.  -->
+	<h2>Details and Summary:</h2>
+	<details style="border: 1px solid white; width: 200px;">
+		<summary>Details</summary>
+		Something small enough to escape casual notice.
+	</details>
+
+	<!-- Embed allows the developer to include external content or webpages within their own. -->
+	<!-- Embed types:
+		image/jpg
+		text/html
+		video/webm -->
+	<h2>This is an embed element:</h2>
+	<embed  type="text/html" 
+			src="C:\Users\Davin\OneDrive\Web Developent\Web Development (2020)\TinDog Completed Website/index.html"
+			width="600"
+			height="500"
+			style="border: 2px solid white; padding: 5px;"></embed>
+
+<!-- 
+	Nav is an html element that provide nav links. Have to be styled with css to look proper.-->
+	<h2>Navigation Menu:</h2>
+	<nav>
+		<ol>
+			<li><a href="header">Heading</a></li>
+			<li><a href="images">Images</a></li>
+			<li>Nav</li>
+		</ol>
+	</nav>
+
+<!-- This is a output, and it allows you to minipulate and display data within the webpage. --> 
+<h2>Output:</h2>
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="b" name="b" value="50" /> +
+  <input type="number" id="a" name="a" value="10" /> =
+  <output name="result" for="a b">60</output>
+</form>
+
+<!-- This is a progress bar and can be used to show the progress of a task.  -->
+<h2>Progress Bar:</h2>
+<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="70"> 70% </progress><br>
+
+<!-- This is a video element and works similar to the <img> tag just in the form of a video. -->
+<!-- Video: -->
+<video controls width="250" style="padding-top: 50px;">
+	<source src="https://www.youtube.com/watch?v=aSsKxee6HLg" type="video/webm">
+	<source src="https://www.youtube.com/watch?v=aSsKxee6HLg" type="video/webm">
+
+		Sorry, your browser doesn't support embedded videos.
+</video>
+
+<fieldset>
+  <legend style="color:white; background-color:black;">Welcome</legend>
+</fieldset>
+
+<!-- The kbd element allows you to insert text denoting keyboard inputs.  -->
+<h2>KBD element</h2>
+<p>
+	Press <kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Delete</kbd> to gain access to the windows security manager. 
+</p>
+
+
+
+<!-- This section is wrapped in a table element. -->
+<table style="border: 2px solid white;">
+	<thead >
+		<tr >
+			<th><h2>Other elements include:</h2></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><code>time</code></td>
+			<td><code>data</code></td>
+		</tr>
+		<tr>
+			<td><code>button</code></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+	<!-- The address element is an HTML container for contact information.  -->
+	<div class="address" style="padding-top: 50px;">
+		<h3>Address element/ Contact me:</h3>
+	<address>
+		<a href="mailto:reiddavin@outlook.com">📧reiddavin@outlook.com</a><br>
+		<p>Not a real number...</p>
+		<a href="tel:+18009999999" target="_blank">📞18009999999</a>
+	</address>
+	</div>
+
+
+
+	
+
+
+
+	<!-- The footer is a tag that puts all the content at the bottom of the webpage. -->
+	<footer style="padding-top: 100px; text-align: center; color: #7FFF00
+; font-weight: 600; ">©Davin Reid 2020</footer>
+	
+
+	<!-- Inline CSS styling -->
+	<style type="text/css">
+		html {
+			background-color: black;
+			font-family: Tahpma, Geneva, sans-serif; 
+			color: #ffff;
+			padding-left: 10px;
+		}
+		h1,h2,h3,h4,h5,h6 {
+			color: #7fff00;
+		}
+
+	</style>
+</body>
+</html>
+
